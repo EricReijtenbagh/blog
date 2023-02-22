@@ -45,6 +45,7 @@ nav > ul > li{
 nav > ul> li > a{
     height: 100%;
     width: 100%;
+    font-size: 1.6rem;
     display:block;
     text-align: center;
     line-height: 60px;
@@ -81,6 +82,7 @@ img:hover{
 }
 
 p{
+    font-size: 1.6rem;
     margin-bottom: 40px;
 }
 
