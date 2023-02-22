@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 html{
+    font-size: 62,5%;
     scroll-behavior: smooth;
 }
+
 body{
-    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
@@ -16,7 +17,7 @@ body{
 header,footer{
     background: #222831;
     color: white;
-    height: 60px;
+    height: 6rem;
 }
 
 nav{
@@ -104,8 +105,8 @@ video{
     margin-bottom: 40px;
 }
 .top{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     background: #222831;
     border:none;
     font-size: 150%;
@@ -121,7 +122,7 @@ video{
     align-items: center;
 }
 footer{
-    height: 180px;
+    height: 18rem;
     display: flex;
     align-items: center;
 }
@@ -161,7 +162,7 @@ footer > p{
 
 @media screen and (max-width:600px){
     body{
-        font-size: 16px;
+        font-size: 1.6rem;
     }
     article{
         width: 100vw;

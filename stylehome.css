@@ -5,11 +5,11 @@
 }
 
 html{
+    font-size: 62,5%;
     scroll-behavior: smooth
 }
 
 body{
-    font-size: 20px;
     font-family: 'Open Sans', sans-serif; 
     color: #222831;
 }
@@ -170,7 +170,7 @@ p{
 
 footer{
     width:100%;
-    height:60px;
+    height:6rem;
     background:#222831;
     color: white;
     display:flex;
@@ -196,8 +196,8 @@ video{
 }
 
 .top{
-    width:80px;
-    height:80px;
+    width:8rem;
+    height:8rem;
     background:#222831;;
     color: white;
     font-size: 150%;
@@ -267,9 +267,9 @@ video{
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:60rem) {
     body{
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     h1{
